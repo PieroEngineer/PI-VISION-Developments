@@ -7,7 +7,7 @@ This repository contains **three PI Vision custom symbols** implemented in vanil
 - **Maximum Graph**: draws a multi‑trend line/threshold chart plus legend and data table.
 - **Maximum Table**: renders a summary table of maxima per period using SVG text.
 
-> **Why no libraries?** In some PI Vision deployments, bundling or loading external libraries (e.g., D3/Plotly) is blocked or leads to version conflicts. These symbols are therefore implemented using `document.createElementNS(...)` for SVG primitives and the PI Vision symbol base class.
+> **Why no libraries?** In some PI Vision deployments, bundling or loading external libraries (e.g., D3/Plotly) is blocked or leads to version conflicts. These symbols are therefore implemented using `document.createElementNS(...)` for SVG primitives and the PI Vision symbol base class. In addition, the company required highly customed symbols.
 
 ---
 
